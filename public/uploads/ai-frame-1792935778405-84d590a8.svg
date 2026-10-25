@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050b0e" />
+      <stop offset="55%" stop-color="#0f292a" />
+      <stop offset="100%" stop-color="#4a1c17" />
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.72" />
+    </radialGradient>
+    <linearGradient id="lightLeak" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.28" />
+      <stop offset="22%" stop-color="#10b981" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <filter id="blurLg"><feGaussianBlur stdDeviation="42" /></filter>
+    <filter id="blurSm"><feGaussianBlur stdDeviation="8" /></filter>
+  </defs>
+
+  <!-- Base Cinema Gradient -->
+  <rect width="1200" height="675" fill="url(#skyGrad)" />
+
+  <!-- Ambient Bokeh & Particles -->
+  <circle cx="653" cy="253" r="58" fill="#10b981" opacity="0.11" filter="url(#blurLg)" /><circle cx="653" cy="253" r="26.1" fill="#fbbf24" opacity="0.14" filter="url(#blurSm)" /><circle cx="864" cy="390" r="36" fill="#ef4444" opacity="0.11" filter="url(#blurLg)" /><circle cx="864" cy="390" r="16.2" fill="#fbbf24" opacity="0.14" filter="url(#blurSm)" /><circle cx="215" cy="187" r="79" fill="#10b981" opacity="0.11" filter="url(#blurLg)" /><circle cx="215" cy="187" r="35.550000000000004" fill="#fbbf24" opacity="0.14" filter="url(#blurSm)" /><circle cx="426" cy="324" r="57" fill="#ef4444" opacity="0.11" filter="url(#blurLg)" /><circle cx="426" cy="324" r="25.650000000000002" fill="#fbbf24" opacity="0.14" filter="url(#blurSm)" /><circle cx="637" cy="461" r="35" fill="#10b981" opacity="0.11" filter="url(#blurLg)" /><circle cx="637" cy="461" r="15.75" fill="#fbbf24" opacity="0.14" filter="url(#blurSm)" /><circle cx="848" cy="258" r="78" fill="#ef4444" opacity="0.11" filter="url(#blurLg)" /><circle cx="848" cy="258" r="35.1" fill="#fbbf24" opacity="0.14" filter="url(#blurSm)" />
+  <circle cx="1103" cy="368" r="2.2" fill="#fbbf24" opacity="0.16" /><circle cx="304" cy="417" r="1.2" fill="#ef4444" opacity="0.24" /><circle cx="665" cy="466" r="4.2" fill="#10b981" opacity="0.32" /><circle cx="1026" cy="515" r="3.2" fill="#fbbf24" opacity="0.40" /><circle cx="227" cy="44" r="2.2" fill="#10b981" opacity="0.48" /><circle cx="588" cy="93" r="1.2" fill="#ef4444" opacity="0.56" /><circle cx="949" cy="142" r="4.2" fill="#fbbf24" opacity="0.16" /><circle cx="150" cy="191" r="3.2" fill="#ef4444" opacity="0.24" /><circle cx="511" cy="240" r="2.2" fill="#10b981" opacity="0.32" /><circle cx="872" cy="289" r="1.2" fill="#fbbf24" opacity="0.40" /><circle cx="73" cy="338" r="4.2" fill="#10b981" opacity="0.48" /><circle cx="434" cy="387" r="3.2" fill="#ef4444" opacity="0.56" /><circle cx="795" cy="436" r="2.2" fill="#fbbf24" opacity="0.16" /><circle cx="1156" cy="485" r="1.2" fill="#ef4444" opacity="0.24" /><circle cx="357" cy="534" r="4.2" fill="#10b981" opacity="0.32" /><circle cx="718" cy="63" r="3.2" fill="#fbbf24" opacity="0.40" /><circle cx="1079" cy="112" r="2.2" fill="#10b981" opacity="0.48" /><circle cx="280" cy="161" r="1.2" fill="#ef4444" opacity="0.56" /><circle cx="641" cy="210" r="4.2" fill="#fbbf24" opacity="0.16" /><circle cx="1002" cy="259" r="3.2" fill="#ef4444" opacity="0.24" /><circle cx="203" cy="308" r="2.2" fill="#10b981" opacity="0.32" /><circle cx="564" cy="357" r="1.2" fill="#fbbf24" opacity="0.40" /><circle cx="925" cy="406" r="4.2" fill="#10b981" opacity="0.48" /><circle cx="126" cy="455" r="3.2" fill="#ef4444" opacity="0.56" /><circle cx="487" cy="504" r="2.2" fill="#fbbf24" opacity="0.16" /><circle cx="848" cy="33" r="1.2" fill="#ef4444" opacity="0.24" /><circle cx="49" cy="82" r="4.2" fill="#10b981" opacity="0.32" /><circle cx="410" cy="131" r="3.2" fill="#fbbf24" opacity="0.40" />
+
+  <!-- Scene Foreground & Focal Subject -->
+  
+      <!-- City Skyline Blurred in Rain -->
+      <g opacity="0.45">
+        <rect x="120" y="290" width="75" height="260" fill="#040809" />
+        <rect x="220" y="240" width="95" height="310" fill="#040809" />
+        <rect x="350" y="310" width="110" height="240" fill="#040809" />
+        <rect x="760" y="260" width="90" height="290" fill="#040809" />
+        <rect x="880" y="220" width="110" height="330" fill="#040809" />
+      </g>
+      <!-- Rain streaks -->
+      <g stroke="#fbbf24" stroke-width="1" opacity="0.22">
+        <line x1="180" y1="60" x2="140" y2="480" />
+        <line x1="310" y1="40" x2="270" y2="460" />
+        <line x1="460" y1="90" x2="420" y2="510" />
+        <line x1="640" y1="30" x2="600" y2="450" />
+        <line x1="820" y1="70" x2="780" y2="490" />
+        <line x1="990" y1="50" x2="950" y2="470" />
+      </g>
+      <!-- Window Frame & Candlelight -->
+      <rect x="0" y="0" width="90" height="675" fill="#040809" />
+      <rect x="1110" y="0" width="90" height="675" fill="#040809" />
+      <rect x="588" y="0" width="24" height="530" fill="#040809" opacity="0.85" />
+      <rect x="0" y="265" width="1200" height="16" fill="#040809" opacity="0.85" />
+      <rect x="0" y="510" width="1200" height="165" fill="#040809" />
+      <!-- Flickering Candle & Open Book -->
+      <circle cx="430" cy="405" r="110" fill="#f59e0b" opacity="0.26" filter="url(#blurLg)" />
+      <rect x="422" y="435" width="16" height="75" rx="3" fill="#fef3c7" opacity="0.9" />
+      <path d="M430,395 Q444,418 430,432 Q416,418 430,395 Z" fill="#fbbf24" />
+      <path d="M480,508 Q540,485 600,508 Q660,485 720,508 L730,520 L470,520 Z" fill="#fbbf24" opacity="0.75" />
+    
+
+  <!-- 35mm Film Light Leak & Vignette -->
+  <rect width="1200" height="675" fill="url(#lightLeak)" />
+  <rect width="1200" height="675" fill="url(#vignette)" />
+
+  <!-- Subtle Cinema Subtitle & Timestamp Burn-in -->
+  <g opacity="0.78">
+    <text x="52" y="58" fill="#fbbf24" font-family="monospace" font-size="15" letter-spacing="3">REC · 2016 · 35MM ARCHIVE</text>
+    <text x="600" y="632" fill="#fef3c7" font-family="serif" font-size="22" text-anchor="middle" letter-spacing="4" opacity="0.9">「 Midnight Train 」</text>
+  </g>
+</svg>

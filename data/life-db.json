@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "name": "林深 · Lin Shen",
+    "birthYear": 2000,
+    "exhibitionTitle": "人生记录本 · 深夜胶片溯源馆",
+    "subtitle": "把散落在岁月里的随笔与光影，冲洗成一条可溯源的生命长卷。",
+    "prologue": "我们并非活在孤立的今天。每一个当下的顿悟、热爱与执念，沿着时间链向上摸索，都能在多年前的某个下午找到最初的伏笔。",
+    "avatarText": "林",
+    "sortOrder": "asc"
+  },
+  "shareConfig": {
+    "slug": "linshen-1998",
+    "title": "人生记录本 · 人生溯源链",
+    "welcomeNote": "欢迎来到我的人生胶片馆。",
+    "passcode": "",
+    "onlyPublic": true,
+    "selectedEras": [],
+    "views": 43,
+    "updatedAt": "2026-10-25 21:00"
+  },
+  "aiConfig": {
+    "provider": "builtin_free",
+    "apiKey": "",
+    "baseUrl": "https://api.siliconflow.cn/v1/images/generations",
+    "model": "Kwai-Kolors/Kolors",
+    "defaultStyle": "wong_kar_wai"
+  },
+  "nodes": [
+    {
+      "id": "node-1792936804743-e397",
+      "title": "算是对我来说比较深刻的一个温馨的画面",
+      "content": "暖黄色的灯光下，是妈妈在灶台旁炒的菜，姐姐在床上看着妈妈炒菜。我被爸爸抱着走进门口，那一刻我知道外面正在下雪，那是我第一次从四川到河北的记忆。\n\n屋外全是一片白色，室内有很多冰块。妈妈被灶台的火光映着，脸上也反着光。那时候没有爸爸的画面，因为我被爸爸抱着，并没有回头看。",
+      "eventYear": "2003",
+      "eventMonth": "11",
+      "eventDay": "",
+      "fuzzyTimeLabel": "三岁，我的记事的第一个画面",
+      "location": "河北廊坊霸州市石家堡",
+      "lng": 116.3915,
+      "lat": 39.1268,
+      "mood": "✨ 好奇与启蒙",
+      "eraTag": "童年拾遗",
+      "imageSource": "UPLOAD",
+      "aiStyle": "kodak_warm",
+      "aiStyleLabel": "柯达暖调 35mm",
+      "sceneMotif": "auto",
+      "aiPrompt": "",
+      "imageUrl": "/uploads/upload-1792936801869-43d279.jpg",
+      "filmFilter": "warm",
+      "frameCode": "KODAK 400 · FRAME NEW",
+      "isPublic": true,
+      "createdAt": "2026-10-25 22:00"
+    }
+  ]
+}

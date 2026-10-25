@@ -1,0 +1,17 @@
+{
+  "name": "life-novel-journal",
+  "version": "1.0.0",
+  "description": "人生记录本 · 深夜胶片溯源馆 — 支持自配图/AI记忆显影配图、流光时间链、高德地图足迹溯源模式与一键公开分享链接",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "life-journal",
+    "timeline",
+    "amap",
+    "ai-illustration",
+    "cinema-archive"
+  ],
+  "license": "MIT"
+}
